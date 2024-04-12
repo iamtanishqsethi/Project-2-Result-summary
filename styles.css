@@ -1,0 +1,137 @@
+/*TO DO- fix the allignment of the score in summary section , currently hard coded the alignment using padding*/
+body{
+    background-color:beige;
+}
+article{
+    border-radius: 4%;
+    width: 565px;
+    height: 380px;
+    margin: 8% 33%;
+    background-color: white;
+    display:flex;
+    font-family:Hanken Grotesk;
+}
+section.main{
+    border-radius: 7%;
+    text-align: center;
+    background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    width:55%;
+    color: white;
+}
+section.Result{
+    height: 150px;
+    width: 150px;
+    display: inline-block;
+    border-radius: 50%;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+
+}
+p.heading{
+    color: hsl(241, 100%, 89%);
+}
+h1.seven{
+    font-weight:800;
+    font-size: 50px;
+    margin-top: 24%;
+    margin-bottom: 0%;
+}
+p.hun{
+    margin-top: 0%;
+    color: hsl(241, 100%, 89%);
+}
+h1.Great{
+    font-size: 25px;
+}
+p.comment{
+    color: hsl(241, 100%, 89%);
+    font-size: 14px;
+    padding: 10px 40px;
+}
+section.summary{
+    width: 45%;
+    text-align: center;
+    padding: 2px 25px;
+    font-size: 15px;
+}
+h1.sum{
+    text-align: left;
+    color: hsl(224, 30%, 27%);
+}
+p.reaction{
+    background-color:hsla(0, 100%, 67%,0.05);
+    color: hsl(241, 100%, 89%);
+    font-weight: 700;
+    padding: 7px;
+    margin: 20px 0px;
+    text-align: left;
+    border-radius: 10px;
+}
+span.rec{
+    color:hsl(0, 100%, 67%);
+    font-weight: 500;
+    
+}
+p.memory{
+    color: hsl(241, 100%, 89%);
+    background-color: hsla(39, 100%, 56%,0.05);
+    font-weight: 700;
+    padding: 7px;
+    margin: 20px 0px;
+    text-align: left;
+    border-radius: 10px;
+}
+span.mem{
+    color: hsl(39, 100%, 56%);
+    font-weight: 500;
+    padding-right: 4px;
+}
+p.verbal{
+    color: hsl(241, 100%, 89%);
+    background-color: hsla(166, 100%, 37%,0.05);
+    font-weight: 700;
+    padding: 7px;
+    margin: 20px 0px;
+    text-align: left;
+    border-radius: 10px;
+}
+span.ver{
+    color: hsl(166, 100%, 37%);
+    font-weight: 700;
+    padding-right: 18px;
+}
+p.visual{
+    color: hsl(241, 100%, 89%);
+    background-color: hsla(234, 85%, 45%,0.05);
+    font-weight: 700;
+    padding: 7px;
+    margin: 20px 0px;
+    text-align: left;
+    border-radius: 10px;
+}
+
+span.vis{
+    font-weight: 500;
+    color: hsla(234, 85%, 45%);
+    padding-right: 19px;
+}
+span.marks{
+    color:hsl(224, 30%, 27%);
+    padding-left: 70px;
+}
+
+section a{
+    text-decoration: none;
+    background-color: hsl(224, 30%, 27%);
+    color:white;
+    font-weight: 700;
+    margin-top:50px;
+    margin-bottom: 0px;
+    padding: 10px 80px;
+    border-radius: 20px;
+}
+section a:hover{
+    background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+}
+
+
+
